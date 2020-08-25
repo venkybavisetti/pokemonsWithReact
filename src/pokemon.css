@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+#pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pokemonCardSize {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.frontHeader {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 350;
+}
+
+.pageHeader {
+  text-align: center;
+}
